@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <vk.cheysoff.clockview.ClockView
+        android:id="@+id/first"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        app:borderWidth="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:numeralsType="roman"
+        app:shape="round"
+        app:updateType="everySecond" />
+
+    <vk.cheysoff.clockview.ClockView
+        android:id="@+id/second"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        app:backgroundColor="@color/pink"
+        app:borderColor="@color/blue"
+        app:borderWidth="8dp"
+        app:layout_constraintStart_toEndOf="@id/first"
+        app:layout_constraintTop_toTopOf="parent"
+        app:numeralsColor="@color/white"
+        app:numeralsFontSize="20dp"
+        app:numeralsType="arabic"
+        app:shape="square"
+        app:showSecondHand="true"
+        app:updateType="everySecond"
+        app:minuteHandColor="@color/white"
+        app:secondHandColor="@color/black"/>
+
+    <vk.cheysoff.clockview.ClockView
+        android:id="@+id/third"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        app:backgroundColor="@color/blue"
+        app:borderWidth="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/second"
+        app:numeralsColor="@color/white"
+        app:numeralsFontSize="20dp"
+        app:numeralsType="none"
+        app:shape="round"
+        app:showSecondHand="false"
+        app:updateType="everyMinute"
+        app:hourHandLengthPercentage="0.2"
+        app:minuteHandLengthPercentage="0.3"
+        app:secondHandLengthPercentage="0.4"
+        app:minuteHandColor="@color/white"
+        app:hourHandColor="@color/pink"
+        app:secondHandColor="@color/black"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="shape" format="enum">
+            <enum name="round" value="0" />
+            <enum name="square" value="1" />
+        </attr>
+        <attr name="borderWidth" format="dimension" />
+
+        <attr name="numeralsType" format="enum">
+            <enum name="arabic" value="0" />
+            <enum name="roman" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="numeralsFontSize" format="dimension" />
+        <attr name="numeralsColor" format="color" />
+
+        <attr name="showSecondHand" format="boolean" />
+        <attr name="showMinuteHand" format="boolean" />
+        <attr name="showHourHand" format="boolean" />
+
+        <attr name="secondHandColor" format="color" />
+        <attr name="minuteHandColor" format="color" />
+        <attr name="hourHandColor" format="color" />
+
+        <attr name="backgroundColor" format="color" />
+        <attr name="borderColor" format="color" />
+
+        <attr name="secondHandLengthPercentage" format="float" />
+        <attr name="minuteHandLengthPercentage" format="float" />
+        <attr name="hourHandLengthPercentage" format="float" />
+
+        <attr name="secondHandWidthPercentage" format="float" />
+        <attr name="minuteHandWidthPercentage" format="float" />
+        <attr name="hourHandWidthPercentage" format="float" />
+
+        <attr name="updateType" format="enum">
+            <enum name="everySecond" value="0" />
+            <enum name="everyMinute" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+
+
+    </declare-styleable>
+</resources>
