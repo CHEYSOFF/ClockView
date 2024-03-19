@@ -1,4 +1,6 @@
-Реализованы:  
+# Кастомная view для андроид - аналоговые часы. 
+Эта view легко интегрируется в код, поддерживает смену цветов всех составляющих, изменение размеров текста, края, стрелок. Можно изменить тип показа цифр, или вовсе их не показывать, можно отключить показ любых стрелок или края
+## Реализованы такие параметры:  
 shape(round, square)  
 borderWidth  
 numeralsType(arabic, roman, none)  
@@ -18,3 +20,4 @@ minuteHandWidthPercentage(from 0.01 to 0.2)
 hourHandWidthPercentage(from 0.01 to 0.2)  
 backgroundColor  
 borderColor  
+
