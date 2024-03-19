@@ -1,4 +1,4 @@
-Реализованы:
+Реализованы:  
 shape(round, square)  
 borderWidth  
 numeralsType(arabic, roman, none)  
